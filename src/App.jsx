@@ -1,9 +1,10 @@
 import React from 'react';
-import HeroSection from './components/herosection';
+import HeroSection from './components/HeroSection';
 import HowItWorks from './components/HowItWorks';
 import WhyChooseUs from './components/WhyChooseUs';
 import CustomerTestimonials from './components/CustomerTestimonials';
 import ContactForm from './components/ContactForm';
+import Footer from './components/Footer';
 
 const App = () => {
   return (
@@ -13,6 +14,9 @@ const App = () => {
       <WhyChooseUs />
       <CustomerTestimonials />
       <ContactForm />
+
+
+      <Footer />
     </main>
   );
 };
